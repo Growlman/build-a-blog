@@ -1,0 +1,55 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+}
+
+
+nav a {
+    background-color: aquamarine;
+    border-radius: 3px;
+    border: none;
+    color: darkblue;
+    cursor: pointer;
+    display: block;
+    font-size: 85%;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+main {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container {
+    margin-left: 3rem;
+}
+
+input {
+    display: block;
+    font-size: 100%;
+    margin: 1rem;
+}
+
+textarea {
+    display: block;
+    font-size: 100%;
+    margin: 1rem;
+}
+
+#submit_button {
+    background-color: aquamarine;
+    border-radius: 2px;
+    border: none;
+    color: darkblue;
+    cursor: pointer;
+    padding: .5em;
+}
+
+.flash_message {
+    background-color: yellowgreen;
+    border-radius: 2px;
+    color: magenta;
+    margin: .25rem;
+    padding: 2rem;
+}
